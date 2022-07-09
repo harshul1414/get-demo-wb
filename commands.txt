@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name harshul
+get config --global user.email harshulbca@gmail.com
+git init
+git add .
+git commit -m  "Initial commit"
+git status # just to see
+ssh-keygen -t ed25519 -C "harshulbca@gmail.com"
+tail<path to id_rsa.pub> # Add this key to your gitub account
+git remote add orign <ssh uel.git>
+git push origin master
