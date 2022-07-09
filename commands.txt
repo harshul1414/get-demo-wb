@@ -9,3 +9,15 @@ ssh-keygen -t ed25519 -C "harshulbca@gmail.com"
 tail<path to id_rsa.pub> # Add this key to your gitub account
 git remote add orign <ssh uel.git>
 git push origin master
+
+
+
+
+
+git status
+git add .
+git commit -m "added cheatsheet"
+git push origin master
+
+
+
