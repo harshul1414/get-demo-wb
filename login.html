@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loging And Registration Form-Easy Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body{
+			background-image:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+		}
+	</style>
+</head>
+<body>
+<center>   
+	<div class="hero">
+<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="Login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="Register()">Register</button>
+		</div>
+		<div class="social-icons">
+		     <img src="fb.png">
+		     <img src="tw.png">
+		     <img src="gp.png">
+		</div>
+		<form id="Login" class="input-group">
+			<input type="text" class="input-field" placeholder="User Id" required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="chech-box"><span>Remember Password</span>
+			<button type="submit" class="submit-btn" >Log in</button> 
+		</form>
+		<form id="Register" class="input-group">
+			<input type="text" class="input-field" placeholder="User Id" required>
+			<input type="Email" class="input-field" placeholder="Email Id" required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="chech-box"><span>I agree to the terms conditions</span>
+			<button type="submit" class="submit-btn">Register</button> 
+			 
+		</form>
+	</div>
+		
+	    </div>
+
+	    <script>
+	    
+
+	    function Register(){
+	    	let x = document.getElementById("Login");
+		    let y = document.getElementById("Register");
+		    let z = document.getElementById("btn");	
+
+		    console.log(x);
+
+	    	x.style.left="-400px"
+	    	y.style.left="50px"
+	    	z.style.left="110px"	    	
+	    }
+
+	    function LogIn(){
+	    	let x = document.getElementById("Login");
+		    let y = document.getElementById("Register");
+		    let z = document.getElementById("btn");	
+
+	    	x.style.left="50px"
+	    	y.style.left="450px"
+	    	z.style.left="0px"	    	
+	    }
+	     </script>
+</center> 	     
+</body>
+</html>

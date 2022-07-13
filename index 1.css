@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(har.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    border: 14Spx solid black;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.container h1{
+    border-bottom: 2px solid red;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 2px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid red;
+
+}
+.input-group {
+    background: none;
+    width: 100%;
+    margin: 3px 2px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(217, 255, 0);
+}
+.submit-btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid red;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="vieport" content="whith=device-width,initial-scale=1.0">
+    <title>Loging </title>
+    <link rel="stylesheet" href="index 1.css">
+    <link rel="stylesheet" type="text/css" href="C:/Users/xyz/Desktop/web/bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="hero">
+
+
+	
+		<form id="Login" class="input-group">
+			<input type="text" class="input-field" placeholder="User Id" required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="chech-box"><span>Remember Password</span>
+			<button type="submit" class="submit-btn" >Log in</button> 
+		</form>
+		<form id="Register" class="input-group">
+			<input type="text" class="input-field" placeholder="User Id" required>
+			<input type="Email" class="input-field" placeholder="Email Id" required>
+			<input type="text" class="input-field" placeholder="Enter Password" required>
+			<input type="checkbox" class="chech-box"><span>I agree to the terms conditions</span>
+			<button type="submit" class="submit-btn">Register</button> 
+			 
+		</form>
+	</div>
+		
+	    </div>
+
+
+    <script type="text/javascript" src="C:/Users/xyz/Desktop/web/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="C:/Users/xyz/Desktop/web/bootstrap/jquery-.js"></script>
+
+    <script>
+	    
+
+	    function Register(){
+	    	let x = document.getElementById("Login");
+		    let y = document.getElementById("Register");
+		    let z = document.getElementById("btn");	
+
+		    console.log(x);
+
+	    	x.style.left="-400px"
+	    	y.style.left="50px"
+	    	z.style.left="110px"	    	
+	    }
+
+	    function LogIn(){
+	    	let x = document.getElementById("Login");
+		    let y = document.getElementById("Register");
+		    let z = document.getElementById("btn");	
+
+	    	x.style.left="50px"
+	    	y.style.left="450px"
+	    	z.style.left="0px"	    	
+	    }
+	     </script>
+
+</body>
+
+</html>
